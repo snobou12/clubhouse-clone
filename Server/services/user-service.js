@@ -48,6 +48,7 @@ class UserService {
       }
     }
     const activationCode = random4Digit();
+    console.log(activationCode);
     if (candidate) {
       candidate.activationCode = activationCode;
       await candidate.save();
