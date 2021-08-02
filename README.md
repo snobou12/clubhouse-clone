@@ -5,3 +5,4 @@
 5) npm start 
 6) npm run dev on server folder destination
 7) that's all
+8) when did you register, your no hash password located in a log terminal. Or use https://sms.ru/ for API sms-service
