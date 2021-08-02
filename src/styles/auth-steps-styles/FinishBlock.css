@@ -1,0 +1,17 @@
+.finish-block-wrapper {
+  padding-top: 20%;
+}
+
+.spinner-finish-block {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.title-afterFinish-block {
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}

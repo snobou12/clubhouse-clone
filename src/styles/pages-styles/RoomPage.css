@@ -1,0 +1,32 @@
+.room-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd9a2f;
+  min-height: 90vh;
+}
+
+.room-page-block {
+  width: 150vh;
+  height: 80vh;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.room-page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.room-page-title {
+  font-family: 'Otomanopee One', sans-serif;
+  padding-left: 10%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.room-page-leave-button {
+  padding-right: 10%;
+}

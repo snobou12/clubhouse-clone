@@ -1,0 +1,53 @@
+.image-block-wrapper {
+  padding-top: 10%;
+}
+
+.title-image-block {
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title-afterImage-block {
+  padding-top: 1%;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 3%;
+}
+
+.photo-desc {
+  padding-top: 1%;
+  cursor: unset;
+  text-align: center;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 14px;
+  color: rgb(64, 64, 241);
+}
+.photo-desc:hover {
+  text-decoration: underline;
+}
+.image-delete {
+  cursor: default;
+}
+.photo-image-block {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #fd9a2f;
+  border-radius: 20px;
+  color: white;
+  font-size: 90px;
+}
+
+.photo-image-block img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.button-image-block {
+  padding-top: 5%;
+  text-align: center;
+}

@@ -1,0 +1,181 @@
+.authPage-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd9a2f;
+  min-height: 100vh;
+}
+
+.auth-block {
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  position: absolute;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-side-span-title {
+  padding-right: 10px;
+}
+
+.right-side-span-title {
+  padding-left: 10px;
+}
+
+/* btn*/
+.button-auth {
+  border-color: #fd9a2f;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #fd9a2f 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #fd9a2f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-auth:hover {
+  background-position: 0;
+}
+
+.button-auth {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #fd9a2f;
+  border-radius: 0.6em;
+  color: #fd9a2f;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline-block;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Otomanopee One', sans-serif;
+  font-weight: 700;
+}
+.button-auth:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.btn-back {
+  margin-right: 2%;
+}
+
+/*btn-auth-disabled*/
+
+.button-auth-disabled {
+  border-color: red;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, red 50%, transparent 50%);
+  background-image: linear-gradient(45deg, red 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-auth-disabled:hover {
+  background-position: 0;
+}
+
+.button-auth-disabled {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 0.6em;
+  color: red;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline-block;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Otomanopee One', sans-serif;
+  font-weight: 700;
+}
+.button-auth-disabled:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+/*btn-auth-success*/
+
+.button-auth-success {
+  border-color: green;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, green 50%, transparent 50%);
+  background-image: linear-gradient(45deg, green 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-auth-success:hover {
+  background-position: 0;
+}
+
+.button-auth-success {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 0.6em;
+  color: green;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline-block;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Otomanopee One', sans-serif;
+  font-weight: 700;
+}
+.button-auth-success:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+/*transform materialUI icons*/
+.rotated-materialUI-icon {
+  transform: rotate(90deg);
+}

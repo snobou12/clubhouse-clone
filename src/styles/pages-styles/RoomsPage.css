@@ -1,0 +1,21 @@
+.rooms-wrapper {
+  min-height: 100vh;
+  background-color: #fd9a2f;
+}
+
+.room-cards {
+  padding-top: 3%;
+}
+.button-add-room button {
+  padding: 10px;
+}
+
+.rooms-empty {
+  color: white;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.filter-room {
+}

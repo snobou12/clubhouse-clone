@@ -1,0 +1,109 @@
+.login-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd9a2f;
+  min-height: 100vh;
+}
+
+.login-block {
+  height: 600px;
+  width: 800px;
+  background-color: white;
+  position: absolute;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-title-loginPage {
+  padding-top: 10%;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title-loginPage-phone {
+  padding-top: 5%;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-loginPage-phone {
+  padding-top: 3%;
+}
+.input-loginPage-phone input {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 20px;
+  line-height: 40px;
+  outline: none;
+  border-radius: 20px;
+  font-family: 'Otomanopee One', sans-serif;
+
+  color: black;
+}
+
+.title-loginPage-password {
+  padding-top: 5%;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.input-loginPage-password {
+  padding-top: 3%;
+}
+.input-loginPage-password input {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 20px;
+  line-height: 40px;
+  outline: none;
+  border-radius: 20px;
+  font-family: 'Otomanopee One', sans-serif;
+
+  color: black;
+}
+
+.button-loginPage-login {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.footer-loginPage {
+  padding-top: 2%;
+  text-align: center;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 14px;
+  color: rgb(64, 64, 241);
+}
+.footer-loginPage a {
+  text-decoration: none;
+}
+
+.footer-loginPage:hover {
+  text-decoration: underline;
+}
+
+.error-text-loginPage {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 15px;
+  color: red;
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.access-text-loginPage {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 15px;
+  color: green;
+  font-family: 'Otomanopee One', sans-serif;
+}

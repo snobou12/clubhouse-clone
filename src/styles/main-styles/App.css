@@ -1,0 +1,12 @@
+.app-wrapper {
+  min-height: 100vh;
+}
+
+.spinner-app {
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}

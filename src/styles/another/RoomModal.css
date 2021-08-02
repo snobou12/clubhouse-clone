@@ -1,0 +1,82 @@
+.title-room-modal {
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.room-modal-input-title-selection {
+  padding-top: 5%;
+}
+
+.room-modal-label-title {
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.room-modal-input-title {
+  text-align: center;
+  padding-top: 3%;
+}
+.room-modal-input-title input {
+  text-align: center;
+  width: 80%;
+  font-size: 20px;
+  line-height: 40px;
+  outline: none;
+  border-radius: 20px;
+  font-family: 'Otomanopee One', sans-serif;
+  color: black;
+}
+
+.room-modal-input-description-selection {
+  padding-top: 3%;
+}
+
+.room-modal-label-description {
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.room-modal-input-description {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.room-modal-input-description input {
+  text-align: center;
+  width: 80%;
+  font-size: 20px;
+  line-height: 40px;
+  outline: none;
+  border-radius: 20px;
+  font-family: 'Otomanopee One', sans-serif;
+  color: black;
+}
+
+.room-modal-button-selection {
+  padding-top: 4%;
+  text-align: center;
+}
+
+.room-modal-button-selection button {
+  text-align: center;
+  padding: 10px 100px 10px 100px;
+}
+
+.error-text-room-modal {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 15px;
+  color: red;
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.success-text-room-modal {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 15px;
+  color: green;
+  font-family: 'Otomanopee One', sans-serif;
+}

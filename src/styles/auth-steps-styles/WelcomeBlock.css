@@ -1,0 +1,36 @@
+.welcome-block-wrapper {
+  padding-top: 10%;
+}
+
+.title-welcome-block {
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description-welcome-block {
+  padding-top: 10%;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.button-welcome-block {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.footer-welcome-block {
+  padding-top: 2%;
+  text-align: center;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 14px;
+  color: rgb(64, 64, 241);
+}
+.footer-welcome-block a {
+  text-decoration: none;
+}
+.footer-welcome-block:hover {
+  text-decoration: underline;
+}
